@@ -77,29 +77,30 @@ nav {
 
 .nav-links {
   display: flex;
+  gap: 20px;
   list-style: none;
-  gap: 2rem;
+  align-items: center;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  font-size: 1.1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: all 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #52ab98;
-  background-color: rgba(82, 171, 152, 0.1);
+  background-color: #ddd;
 }
 
 .nav-links a.active {
-  color: #ffffff;
-  background-color: #52ab98;
+  background-color: #4cafab;
+  color: #fff;
+  font-weight: bold;
 }
+
 
 .theme-toggle, .mobile-menu {
   font-size: 1.3rem;
