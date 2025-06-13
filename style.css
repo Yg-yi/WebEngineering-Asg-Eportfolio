@@ -101,7 +101,6 @@ nav {
   font-weight: bold;
 }
 
-
 .theme-toggle, .mobile-menu {
   font-size: 1.3rem;
   cursor: pointer;
@@ -213,14 +212,14 @@ section {
 }
 
 .social-links a {
-  color: #52ab98;
+  color: #ab7a52;
   font-size: 1.5rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-links a:hover {
   transform: translateY(-3px);
-  color: #3a7a6d;
+  color: #92bd2f;
 }
 
 /* Skills Section Styles */
@@ -581,6 +580,15 @@ footer {
 .footer-bottom {
   padding-top: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-section a {
+  color: #f38eeb; 
+  text-decoration: none; 
+}
+
+.footer-section a:hover {
+  color: #e9fc44; 
 }
 
 /* Responsive Styles */
